@@ -80,4 +80,9 @@ section {
     margin: .5em;
     display: block;
     padding: 1em;
+    box-shadow: 5px 5px rgb(0, 0, 0, .5);
+}
+
+.card>h3 {
+    background-color: gray;
 }
