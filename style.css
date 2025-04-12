@@ -61,7 +61,7 @@ section {
 }
 
 .dragonball {
-    background-image: url(https://mickshannahan.github.io/AkiraToriyamaTribute/assets/BulmaYamchaGokuRed.png);
+    background-image: url(assets/items-bg.png);
     display: flex;
     background-size: contain;
     background-repeat: no-repeat;
