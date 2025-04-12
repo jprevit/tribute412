@@ -2,6 +2,10 @@
     background-color: aquamarine;
 } */
 
+:root {
+    --db-red: #ef4433;
+}
+
 body {
     margin: 0px;
 }
@@ -17,7 +21,7 @@ section {
 }
 
 .hero {
-    background-color: red;
+    background-color: var(--db-red);
     padding: 10px;
     color: whitesmoke;
     text-align: center;
@@ -42,7 +46,7 @@ section {
 
 .card {
     background-color: white;
-    width: 250px;
+    width: 40vw;
     gap: 1em;
     padding-inline-end: 1em;
     display: flex;
@@ -51,9 +55,29 @@ section {
     border-radius: 8px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
 
-
-
     img {
         height: 25vh;
     }
+}
+
+.dragonball {
+    background-image: url(https://mickshannahan.github.io/AkiraToriyamaTribute/assets/BulmaYamchaGokuRed.png);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: var(--db-red);
+}
+
+.dragonball-shelf {
+    display: block;
+}
+
+.dragonball-shelf>.card {
+    border-radius: 0px;
+    color: black;
+    border: solid black;
+    margin: .5em;
+    display: block;
+    padding: 1em;
 }
