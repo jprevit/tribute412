@@ -1,0 +1,24 @@
+/* body {
+    background-color: aquamarine;
+} */
+
+body {
+    margin: 0px;
+}
+
+section {
+    background-color: red;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
