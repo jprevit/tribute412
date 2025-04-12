@@ -6,19 +6,54 @@ body {
     margin: 0px;
 }
 
-section {
-    background-color: red;
-    padding: 10px;
-    color: whitesmoke;
-    text-align: center;
-}
-
 div {
     display: flex;
     justify-content: center;
 }
 
-img {
-    width: 200px;
-    border-radius: 50%;
+
+section {
+    color: whitesmoke;
+}
+
+.hero {
+    background-color: red;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+
+    img {
+        width: 200px;
+        border-radius: 50%;
+    }
+}
+
+.early-career {
+    color: black;
+    background-image: url(https://mickshannahan.github.io/AkiraToriyamaTribute/assets/KiBlast.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    gap: 1em;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    gap: 1em;
+    padding-inline-end: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+
+
+
+    img {
+        height: 25vh;
+    }
 }
